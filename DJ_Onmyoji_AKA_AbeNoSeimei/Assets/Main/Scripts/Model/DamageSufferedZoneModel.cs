@@ -24,6 +24,7 @@ namespace Main.Model
         /// <summary>無敵時間（秒）</summary>
         [Tooltip("無敵時間（秒）")]
         [SerializeField] protected float invincibleTimeSec = 1f;
+        [SerializeField] private ShikigamiType[] shikigamiType;
         /// <summary>ユーティリティ</summary>
         private EnemyPlayerModelUtility _utility = new EnemyPlayerModelUtility();
         /// <summary>2Dコライダー</summary>
@@ -58,8 +59,12 @@ namespace Main.Model
             if (_utility.IsCompareTagAndUpdateReactiveFlag(other, tags, IsHit))
             {
                 var atttack = other.GetComponent<DamageSufferedZoneModel>();
+                int atttack_type_point = 0;
+                if (shikigamiType.Where(q => q.Equals(atttack.shikigamiType[0])).Select(q => q).ToArray().Length > 0) {
+                    atttack_type_point = 1;
+                }
                 if (atttack != null)
-                    Damage.Value = atttack.AttackPoint;
+                    Damage.Value = atttack.AttackPoint * atttack_type_point;
                 else
                     Damage.Value = 1;
                 IsHit.Value = true;

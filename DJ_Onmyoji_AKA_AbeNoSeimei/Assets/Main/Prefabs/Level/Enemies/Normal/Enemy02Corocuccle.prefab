@@ -56,6 +56,26 @@ PrefabInstance:
       propertyPath: enemiesID
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4771599399997114491, guid: 5d7044c8d42de1540a3954615dee3f19, type: 3}
+      propertyPath: shikigamiType.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4771599399997114491, guid: 5d7044c8d42de1540a3954615dee3f19, type: 3}
+      propertyPath: shikigamiType.Array.data[0]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4771599399997114491, guid: 5d7044c8d42de1540a3954615dee3f19, type: 3}
+      propertyPath: shikigamiType.Array.data[1]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4771599399997114491, guid: 5d7044c8d42de1540a3954615dee3f19, type: 3}
+      propertyPath: shikigamiType.Array.data[2]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4771599399997114491, guid: 5d7044c8d42de1540a3954615dee3f19, type: 3}
+      propertyPath: shikigamiType.Array.data[3]
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4932295687873472375, guid: 5d7044c8d42de1540a3954615dee3f19, type: 3}
       propertyPath: animator
       value: 

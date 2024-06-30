@@ -63,19 +63,29 @@ MonoBehaviour:
   - enemiesID: 5
     enemyPrefab: {fileID: 3424201069143673290, guid: 96384a9b59ef3024c965979fdc5a74f0, type: 3}
   - enemiesID: 6
-    enemyPrefab: {fileID: 3424201069143673290, guid: 96384a9b59ef3024c965979fdc5a74f0, type: 3}
-  - enemiesID: 7
     enemyPrefab: {fileID: 3424201069143673290, guid: 56cdcee45edb071449e2489f5111a0f7, type: 3}
-  - enemiesID: 8
+  - enemiesID: 7
     enemyPrefab: {fileID: 3424201069143673290, guid: c78f914086ce79a429354f3e975c8bd9, type: 3}
-  - enemiesID: 9
+  - enemiesID: 8
     enemyPrefab: {fileID: 3424201069143673290, guid: b4819b7fb7b5d5c4d9b606d1a8643d21, type: 3}
-  - enemiesID: 10
+  - enemiesID: 9
     enemyPrefab: {fileID: 3424201069143673290, guid: 5a79f4b9282f88a44bd0ab500d2040ff, type: 3}
-  - enemiesID: 11
+  - enemiesID: 10
     enemyPrefab: {fileID: 3424201069143673290, guid: 1ab8a0f558f013f46a50b7ac57a21aa8, type: 3}
-  - enemiesID: 12
+  - enemiesID: 11
     enemyPrefab: {fileID: 3424201069143673290, guid: f1f33327641ff704eafbbb861193918c, type: 3}
-  - enemiesID: 13
+  - enemiesID: 12
     enemyPrefab: {fileID: 3424201069143673290, guid: 6caa415b86a9e2f4d86851345b2f4383, type: 3}
+  - enemiesID: 13
+    enemyPrefab: {fileID: 3424201069143673290, guid: d8e95df950eb4e0429df993a27556d67, type: 3}
+  - enemiesID: 14
+    enemyPrefab: {fileID: 3424201069143673290, guid: 7775d5447dd1e564fba8af958adf3390, type: 3}
+  - enemiesID: 15
+    enemyPrefab: {fileID: 3023802622660258064, guid: e049ab9596e0ae04aa822321e61f2815, type: 3}
+  - enemiesID: 16
+    enemyPrefab: {fileID: 3023802622660258064, guid: cbdf873eef0cb7f48ac02b598234c9cc, type: 3}
+  - enemiesID: 17
+    enemyPrefab: {fileID: 3023802622660258064, guid: 2844bf0595a5f244bb85a8b06f5d84c5, type: 3}
+  - enemiesID: 23
+    enemyPrefab: {fileID: 1022804626730257350, guid: 212076a9f633e054aaf556e1f2e36255, type: 3}
   soulMoneyPrefab: {fileID: 6691567708278716744, guid: e808d3b5e73966b41873d941c71a595a, type: 3}

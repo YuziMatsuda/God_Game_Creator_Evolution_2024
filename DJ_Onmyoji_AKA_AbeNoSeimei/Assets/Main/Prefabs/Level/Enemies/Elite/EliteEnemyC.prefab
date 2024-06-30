@@ -50,7 +50,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3678280287336115840, guid: 5d7044c8d42de1540a3954615dee3f19, type: 3}
       propertyPath: enemiesID
-      value: 17
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 3678280287336115840, guid: 5d7044c8d42de1540a3954615dee3f19, type: 3}
       propertyPath: prop.hpMax

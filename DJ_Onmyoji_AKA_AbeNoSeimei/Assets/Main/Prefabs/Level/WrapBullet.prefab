@@ -12,6 +12,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WrapBullet
       objectReference: {fileID: 0}
+    - target: {fileID: 2719502068726504412, guid: 5611dace4c6b51746907311e71c4a6ef, type: 3}
+      propertyPath: shikigamiType.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3715552769531033385, guid: 5611dace4c6b51746907311e71c4a6ef, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

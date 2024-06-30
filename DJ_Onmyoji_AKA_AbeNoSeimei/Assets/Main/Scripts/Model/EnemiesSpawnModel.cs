@@ -192,6 +192,12 @@ namespace Main.Model
         EN0012,
         EN0013,
         EN0014,
+        /// <summary>ラップでしか雑魚敵</summary>
+        EN0000_W,
+        /// <summary>ダンスでしか雑魚敵</summary>
+        EN0000_D,
+        /// <summary>グラフィティでしか倒せない雑魚敵</summary>
+        EN0000_G,
         /// <summary>中ボス敵A</summary>
         EN1000,
         /// <summary>中ボス敵B</summary>
@@ -202,6 +208,8 @@ namespace Main.Model
         EN1003,
         /// <summary>中ボス敵E</summary>
         EN1004,
+        /// <summary>中ボス敵F</summary>
+        EN1005,
         /// <summary>大ボス敵A</summary>
         EN2000,
         /// <summary>大ボス敵B</summary>
